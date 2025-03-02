@@ -46,8 +46,8 @@ UTILITY PROJECT FILES
 1. ".\docs\Cloper utility for compressing and optimizing virtual machine rollback disk.pdf" - description of the utility in English;
 2. ".\docs\Утилита Cloper - сжатие и оптимизация диска отката виртуальной машины.pdf" - description of the utility in Russian;
 3. ".\project\..." - the original project of the utility was in Pascal, debugging and compilation of the published version of the program was carried out using Embarcadero® RAD Studio XE5;
-4. ".\cloper_x86.exe" - 32-bit version of the utility;
-5. ".\cloper_x64.exe" - 64-bit version of the utility.
+4. ".\cloper_x86.zip" - zip-archive of 32-bit version of the utility;
+5. ".\cloper_x64.zip" - zip-archive of 64-bit version of the utility.
 
 PROJECT STATUS, SUPPORT AND DEVELOPMENT
 
