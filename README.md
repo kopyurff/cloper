@@ -14,7 +14,7 @@ INTRODUCTION
 OPTIMIZATION PROCEDURES
 
  The optimization procedure can be applied to virtual disks with MBR and GPT partition layout formats. The mapping operation and other optimization actions are applied only to partitions with the NTFS file system, partitions with other file systems are cloned as is. The utility provides the following procedures for optimizing NTFS volumes:
-1. Preliminary deletion of the source files specified for this purpose, exclusion from the procedures of identical files with the same cluster arrangement in the source and in the standard;
+1. Preliminary deletion of the source files specified for this purpose, exclusion from the procedures of identical files with the same cluster arrangement in the source and in the target;
 2. NTFS compression of new and changed data with their consolidation (i.e. if specified, it also moves this source data in front of etalon data without matches);
 3. Finds source file cluster matches among unmatched target file clusters and moves these source file data in front of matched target clusters;
 4. Transfer of non-zero sectors of the etalon to file-free areas of the source volume;
